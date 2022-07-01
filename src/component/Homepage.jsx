@@ -10,7 +10,7 @@ export default function Homepage() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    axios.get("http://localhost:3001/foodData").then((res) => {
+    axios.get("https://inovat-api.herokuapp.com/foodData").then((res) => {
       setData(res.data) 
     })
   }, [])

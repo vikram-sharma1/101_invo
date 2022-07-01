@@ -21,7 +21,7 @@ function Details() {
 // }, 1000);
   // console.log(data)
   useEffect(() => {
-    axios.get(`http://localhost:3001/foodData?code=${code}`).then(res => setSingledata(res.data[0]))
+    axios.get(`https://inovat-api.herokuapp.com/foodData?code=${code}`).then(res => setSingledata(res.data[0]))
     
   }, [])
   
