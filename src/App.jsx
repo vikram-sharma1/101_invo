@@ -1,4 +1,4 @@
-import AllRouters from './AllRouters/AllRouters';
+import Routing from './Routes/Routing';
 import './App.css';
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
     <div className="App">
 
       <>
-        <AllRouters/>
+        <Routing/>
       </>
 
     </div>
